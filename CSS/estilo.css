@@ -1,0 +1,256 @@
+#navegação{
+    position: fixed;
+}
+
+#principal{
+    background-color: rgb(#0ab8d6);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20em;
+
+}
+h4{
+    display: flex;
+    justify-content: center;
+}
+    
+.cadastro{
+    background: white;
+    border: solid rgb(15, 14, 14);
+    width: 440px;
+    height: 550px;
+    border-radius: 10%;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carousel-item {
+    margin: 10px 5px 20px 5px ;
+    position: absolute;
+    
+
+}
+.h4{
+    display: absolute;
+    left: 2em;
+}
+
+.titulo{
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    box-sizing: content-box;
+}
+.container-cadastro{
+    display: inline-block;
+}
+
+label{
+    padding: 10px;
+}
+
+.informacoes {
+    margin: 1em;
+}
+
+.informacoesSenha {
+    margin: 2em;
+}
+
+
+.form-group  {
+    display: flex;
+    justify-content: center;
+}
+
+.primeiro  {
+    font-weight: bold;
+    margin-top: 60px;
+    position: relative;
+    bottom: 2em;
+    }
+
+
+.form-check input, label{
+    display: inline;
+    font-weight: bold;
+    margin-top: 2px;
+    
+}
+
+.botao-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    transition: all 0.4s;
+}
+
+.botao-login:hover{
+    -webkit-filter: blur(1px);
+    filter:blur(1px);
+    font-weight: bold;
+}
+
+.nav-link{
+    transition: all .5s;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    border: 10px solid #781f40;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    border-radius: 10%;
+   border: solid 1px rgb(36,172,215);
+}
+
+.part1 {
+  display: flex;
+  justify-content: center;
+  width: 5em;
+  background-color: rgb(105,203,226);
+ 
+}
+
+/*------cadastro----------*/
+.cadastro-model {
+    
+    width: 50em;
+    height: 34em;
+    padding: 40px;
+  
+}
+
+/*--------Home--------*/
+
+#principal-cadastro{
+    background-image: url(../img/fundo2.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#navegação-cadastro{
+    width: 70rem;
+    height: 6em;
+    border: solid black 1px;
+}
+
+.nav-item{
+    padding: 50px;
+    
+    
+}
+
+.nav-link{
+    transition: all .5s;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:hover{
+    border: 10px solid #781f40;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    border-radius: 10%;
+   border: solid 1px rgb(36,172,215);
+}
+
+/*Home*/
+#principal-home{
+    background-image: url(../img/fundoimagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 23em;
+}
+
+.navbar {
+    height: 5em;
+    width: 90rem;
+    position: fixed;
+}
+
+
+.viagens .carousel-inner{
+    position: relative;
+    top: 1.4em;
+    left: 1.5em;
+    
+}
+
+.viagens a p{
+    
+    position: relative;
+    top: 7ex;
+  
+}
+.viagens p{
+    color: rgba(0, 0, 0, 0.993);
+    background-color: rgb(rgb(243, 217, 217));
+    
+}
+
+.viagens  h3{
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+
+ .viagens{
+    border: solid 1px rgb(0,0,0,.5);
+    width: 35rem;
+    height: 30rem;
+    position: relative;
+    left: 8.0em;
+ }
+
+ .dados-viagens {
+    position: relative;
+    top: 5em;
+    height: 4em;
+    background-color: #b2ecb2;
+    border-radius: 10px 10px 10px 10px ;
+    
+ }
+ .titulo-header{
+    width: 45em;
+    position: relative;
+    right: 5em;
+    top: 3em;
+    
+ }
+
+ .col-2.p-5 {
+    position: relative;
+    bottom:1em;
+    padding: 4em;
+ }
+
+ #publicaçoes-home{
+    border: solid 2px;
+ }
+
+ .public-1{
+    border: solid red;
+    
+ }
+
+ .public-2{
+    border: solid blue;
+ }
+
+ .public-3{
+    border: solid green;
+ }
