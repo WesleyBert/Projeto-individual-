@@ -1,52 +1,48 @@
-#navegação{
-    position: fixed;
-}
+
 
 #principal{
-    background-color: rgb(#0ab8d6);
+    background-image: url(../img/fundo2.webp);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 20em;
 
 }
-h4{
-    display: flex;
-    justify-content: center;
+section{
+    margin: 3em 1em;
+    padding-top: 20px;
+    width: 20px 20em;
+
+
 }
     
 .cadastro{
-    background: white;
     border: solid rgb(15, 14, 14);
     width: 440px;
     height: 550px;
     border-radius: 10%;
     margin-top: 20px;
     box-shadow: 4px 4px 4px;
-
+    display: inline-block;
 }
-.icon{
-    display: flex;
-    justify-content: center;
+.item1{
     
+    display: inline-block;
+    margin: 40px;
+    border: solid red;
 }
 
-.carousel-item {
-    margin: 10px 5px 20px 5px ;
-    position: absolute;
-    
 
-}
-.h4{
-    display: absolute;
-    left: 2em;
+.item2 {
+    width: 440px;
+    height: 322px;
+    display: block;
 }
 
 .titulo{
     font-size: 26px;
     display: flex;
     justify-content: center;
-    margin-top: 2em;
+    margin-top: 20px;
     box-sizing: content-box;
 }
 .container-cadastro{
@@ -86,6 +82,7 @@ label{
     
 }
 
+
 .botao-login {
     display: flex;
     justify-content: center;
@@ -97,160 +94,79 @@ label{
     -webkit-filter: blur(1px);
     filter:blur(1px);
     font-weight: bold;
+    
 }
 
-.nav-link{
-    transition: all .5s;
-    font-weight: bold;
-}
-
-.nav-link:hover{
-    border: 10px solid #781f40;
-    border-radius: 50%;
-    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
-    border-radius: 10%;
-   border: solid 1px rgb(36,172,215);
-}
-
-.part1 {
-  display: flex;
-  justify-content: center;
-  width: 5em;
-  background-color: rgb(105,203,226);
+.navbar{
  
-}
-
-/*------cadastro----------*/
-.cadastro-model {
-    
-    width: 50em;
-    height: 34em;
-    padding: 40px;
-  
-}
-
-/*--------Home--------*/
-
-#principal-cadastro{
-    background-image: url(../img/fundo2.webp);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-#navegação-cadastro{
-    width: 70rem;
-    height: 6em;
-    border: solid black 1px;
-}
-
-.nav-item{
-    padding: 50px;
-    
-    
-}
-
-.nav-link{
-    transition: all .5s;
-    font-weight: bold;
-    color: white;
-}
-
-.nav-link:hover{
-    border: 10px solid #781f40;
-    border-radius: 50%;
-    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
-    border-radius: 10%;
-   border: solid 1px rgb(36,172,215);
-}
-
-/*Home*/
-#principal-home{
-    background-image: url(../img/fundoimagem.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 23em;
-}
-
-.navbar {
-    height: 5em;
-    width: 90rem;
+    background-color: rgb(67, 186, 207);
+    opacity: 0.9;
     position: fixed;
 }
 
-
-.viagens .carousel-inner{
-    position: relative;
-    top: 1.4em;
-    left: 1.5em;
-    
+main{
+    background-color: aliceblue;
+    border: solid rgb(41, 40, 40);
 }
 
-.viagens a p{
-    
-    position: relative;
-    top: 7ex;
-  
-}
-.viagens p{
-    color: rgba(0, 0, 0, 0.993);
-    background-color: rgb(rgb(243, 217, 217));
-    
-}
-
-.viagens  h3{
+.viaje-mundo{
     display: flex;
     justify-content: center;
+    justify-items: center;
+    font-weight: bolder;
+}
+
+.nav-link{
+    transition: all .5s;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    border: 10px solid #781f40;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+    border-radius: 10%;
+   border: solid 1px rgb(36,172,215);
+}
+
+.carousel-item{
+    width: 30em;
+    height: 30em;
+}
+
+.public-1{
+ width: 30em;
+ height: 30em;
+ margin: 1em ;
+ display: flex;
+ justify-content: end;
+
+}
+
+.public-2{
+    width: 30em;
+    height: 30em;
+    margin: 1em ;
+  
     
+   }
+
+.public-3{
+    width: 30em;
+    height: 30em;
+    margin: 1em;
     
- }
+   }
+   .d-block {
+    width: 30em;
+   }
 
- .viagens{
-    border: solid 1px rgb(0,0,0,.5);
-    width: 35rem;
-    height: 30rem;
-    position: relative;
-    left: 8.0em;
- }
-
- .dados-viagens {
-    position: relative;
-    top: 5em;
-    height: 4em;
-    background-color: #b2ecb2;
-    border-radius: 10px 10px 10px 10px ;
-    
- }
- .titulo-header{
-    width: 45em;
-    position: relative;
-    right: 5em;
-    top: 3em;
-    
- }
-
- .col-2.p-5 {
-    position: relative;
-    bottom:1em;
-    padding: 4em;
- }
-
- #publicaçoes-home{
-    border: solid 2px;
- }
-
- .public-1{
-    border: solid red;
-    
- }
-
- .public-2{
-    border: solid blue;
- }
-
- .public-3{
-    border: solid green;
- }
+   .dados-viagens{
+    border: solid white;
+    background-color: rgb(118, 235, 118);
+    opacity: 0.9;
+    border-radius: 10px;
+   }
