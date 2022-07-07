@@ -1,87 +1,41 @@
+#fundo{
+    background-color: rgb(172, 221, 235);
 
+}
 
 #principal{
     background-image: url(../img/fundo2.webp);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 26em;
 
 }
-section{
-    margin: 3em 1em;
-    padding-top: 20px;
-    width: 20px 20em;
 
-
+.dados-viagens{
+    margin-top: 6em;
+    border: solid white;
+    background-color: rgb(198, 230, 198);
+    opacity: 0.9;
+    border-radius: 10px;
 }
-    
-.cadastro{
-    border: solid rgb(15, 14, 14);
-    width: 440px;
-    height: 550px;
+
+.nav-link{
+    transition: all .5s;
+    font-weight: bold;
+    margin-right: 5em;
+}
+
+.nav-link:hover{
+    border: 10px solid #781f40;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
     border-radius: 10%;
-    margin-top: 20px;
-    box-shadow: 4px 4px 4px;
-    display: inline-block;
+   border: solid 1px rgb(36,172,215);
 }
-.item1{
-    
-    display: inline-block;
-    margin: 40px;
-    border: solid red;
-}
-
-
-.item2 {
-    width: 440px;
-    height: 322px;
-    display: block;
-}
-
-.titulo{
-    font-size: 26px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    box-sizing: content-box;
-}
-.container-cadastro{
-    display: inline-block;
-}
-
-label{
-    padding: 10px;
-}
-
-.informacoes {
-    margin: 1em;
-}
-
-.informacoesSenha {
-    margin: 2em;
-}
-
-
-.form-group  {
-    display: flex;
-    justify-content: center;
-}
-
-.primeiro  {
-    font-weight: bold;
-    margin-top: 60px;
-    position: relative;
-    bottom: 2em;
-    }
-
-
-.form-check input, label{
-    display: inline;
-    font-weight: bold;
-    margin-top: 2px;
-    
-}
-
 
 .botao-login {
     display: flex;
@@ -100,73 +54,58 @@ label{
 .navbar{
  
     background-color: rgb(67, 186, 207);
-    opacity: 0.9;
+    opacity: 0.5;
     position: fixed;
 }
 
-main{
-    background-color: aliceblue;
-    border: solid rgb(41, 40, 40);
-}
+.titulo-header{
 
-.viaje-mundo{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    font-weight: bolder;
-}
-
-.nav-link{
-    transition: all .5s;
+    margin-top: 5em;
+    color: black;
     font-weight: bold;
 }
 
-.nav-link:hover{
+.viaje-mundo{
+    font-weight: bolder;
+    display: inline;
+}
+
+/*final do header*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: 30px 0 ;
+}
+
+
+.place-detail {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 6px 9px 5px 0px rgba(173,157,173,0.5);
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    padding: 30px;
+
+}
+
+.place-image {
+    width: 40%;
+    height: 80%;
+    
+}
+
+.place-detail:hover {
     border: 10px solid #781f40;
-    border-radius: 50%;
     -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
     filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
     -webkit-transform: rotateZ(-360deg) scale(1.5);
-    transform: rotateZ(-360deg) scale(1.5);
-    border-radius: 10%;
+    transform: rotateZ(-360deg) scale(1.1);
    border: solid 1px rgb(36,172,215);
 }
-
-.carousel-item{
-    width: 30em;
-    height: 30em;
-}
-
-.public-1{
- width: 30em;
- height: 30em;
- margin: 1em ;
- display: flex;
- justify-content: end;
-
-}
-
-.public-2{
-    width: 30em;
-    height: 30em;
-    margin: 1em ;
-  
-    
-   }
-
-.public-3{
-    width: 30em;
-    height: 30em;
-    margin: 1em;
-    
-   }
-   .d-block {
-    width: 30em;
-   }
-
-   .dados-viagens{
-    border: solid white;
-    background-color: rgb(118, 235, 118);
-    opacity: 0.9;
-    border-radius: 10px;
-   }
