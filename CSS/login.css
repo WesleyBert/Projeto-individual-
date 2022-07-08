@@ -1,3 +1,11 @@
+#email{
+    width: 60%;
+}
+
+#password {
+    width: 58%;
+}
+
 .part1 {
     background-image: url(../img/fundoimagem.jpg); 
     background-repeat: no-repeat;

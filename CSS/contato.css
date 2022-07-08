@@ -23,12 +23,11 @@
 .d-flex{
     margin-left: 4em;
 }
-
 .nav-link{
-
+    color: black;
     transition: all .5s;
     font-weight: bold;
-    margin-left: 4em;
+    margin-left: 7em;
 }
 .nav-link:hover{
     border: 10px solid #781f40;
@@ -44,9 +43,9 @@
 .navbar{
  
     background-color: rgb(67, 186, 207);
-    opacity: 0.9;
+    opacity: 0.8;
     position: fixed;
-    }
+}
 
 
 main{
