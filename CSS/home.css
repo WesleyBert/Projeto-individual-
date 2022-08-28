@@ -41,7 +41,6 @@
  
     background-color: rgb(67, 186, 207);
     opacity: 0.8;
-    position: fixed;
 }
 
 .botao-login {
@@ -91,7 +90,7 @@ main {
     border-radius: 10px;
     box-shadow: 6px 9px 5px 0px rgba(173,157,173,0.5);
     width: 80%;
-    height: 400px;
+    height: 400%;
     background-color: white;
     padding: 30px;
 

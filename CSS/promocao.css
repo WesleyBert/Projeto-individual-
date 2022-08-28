@@ -33,10 +33,6 @@
 .navbar{
     background-color: rgb(67, 186, 207);
     opacity: 0.8;
-    position: fixed;
-    transition: all .5s;
-    font-weight: bold;
-    margin-left: 7em;
 }
 
 
